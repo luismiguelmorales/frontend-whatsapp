@@ -1,0 +1,21 @@
+.left {
+  /*border: 3px solid black;*/
+  height: 945px;
+  width: 480px;
+}
+
+.contact-list {
+  /*border: 3px solid blue;*/
+  height: 835px;
+  overflow-y: scroll;
+}
+
+/* Change the background color of the scrollbar track */
+.contact-list::-webkit-scrollbar {
+  background-color: transparent;
+  width: 5px;
+}
+
+.contact-list::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+}

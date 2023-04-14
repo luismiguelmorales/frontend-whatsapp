@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+.input-container {
+  display: flex;
+  background-color: #f0f2f5;
+  /*border: 10px solid red;*/
+  height: 70px;
+  padding: 10px 20px;
+}
+
+.input-button {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.send-input {
+  flex: 1;
+  background-color: white;
+  border-radius: 10px;
+  border: none;
+  padding-left: 18px;
+  font-size: 15px;
+}
+
+input:focus {
+  outline: none;
+}

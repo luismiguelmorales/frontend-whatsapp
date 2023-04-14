@@ -1,0 +1,16 @@
+.option-bar {
+  background-color: #f0f2f5;
+  display: flex;
+  padding: 12px 18px;
+  height: 65px;
+}
+
+.four-icons {
+  display: flex;
+  justify-content: space-around;
+  width: 190px;
+}
+
+.profile-container {
+  flex: 1;
+}

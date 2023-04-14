@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+.container-contact-header {
+  display: flex;
+  height: 65px;
+  background-color: #f0f2f5;
+  border-left: 1px solid #ccc;
+  align-items: center;
+  padding: 0 15px;
+}
+
+.name {
+  flex: 1;
+  margin-left: 1%;
+  font-size: 16px;
+}

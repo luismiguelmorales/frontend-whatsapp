@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+.messages-container {
+  background-color: #eae6df;
+  /*flex: 0;*/
+  height: 810px;
+  padding: 0 3%;
+  overflow-y: scroll;
+}
+
+.sender {
+  display: inline-block;
+  background-color: white;
+  margin: 2px 0;
+  border-radius: 5px;
+  padding: 5px 7px 7px 7px;
+}
+
+.receiver {
+  display: inline-block;
+  background-color: #d9fdd3;
+  margin: 2px 0;
+  border-radius: 5px;
+  padding: 5px 7px 7px 7px;
+}
+
+/* Change the background color of the scrollbar track */
+.messages-container::-webkit-scrollbar {
+  background-color: transparent;
+  width: 5px;
+}
+
+.messages-container::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+}

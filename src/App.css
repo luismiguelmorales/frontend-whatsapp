@@ -1,0 +1,50 @@
+.parent {
+  /*border: 3px solid red;*/
+  display: flex;
+  height: 945px;
+  margin: 1% 7%;
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 86%;
+  font-family: "Segoe UI", "Helvetica Neue", Helvetica, "Lucida Grande", Arial,
+    Ubuntu, Cantarell, "Fira Sans", sans-serif;
+  font-size: 14.2px;
+  color: #111b21;
+}
+
+.top-back-bar {
+  width: 100%;
+  height: 125px;
+  background-color: #00a884;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 0;
+  z-index: -1;
+}
+
+.back-side {
+  background-color: #d1d7db;
+  z-index: -2;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.small-profile {
+  width: 40px;
+  height: 40px;
+}
+
+.medium-profile {
+  width: 49px;
+  height: 49px;
+}
+
+img {
+  border-radius: 50%;
+}
